@@ -3,6 +3,9 @@ description: Desktop automation
 version: 1.0.0
 homepage: https://www.inputter.dev
 
+platforms:
+  windows:
+
 environment:
   sdk: '>=2.18.0-271.7.beta <3.0.0'
 
