@@ -6,6 +6,8 @@ homepage: https://www.inputter.dev
 platforms:
   windows:
 
+repository: https://github.com/simonmdsn/inputter
+
 environment:
   sdk: '>=2.18.0-271.7.beta <3.0.0'
 
