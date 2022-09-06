@@ -17,7 +17,7 @@ There are different kind of managers that have specific use cases for automation
 
 Take a look at `example` folder for inspiration.
 
-![me](assets/notepad.mp4)
+https://user-images.githubusercontent.com/43004140/188739660-9978ec34-a2f0-431a-9529-cca25db3a534.mp4
 
 ## Additional information
 
