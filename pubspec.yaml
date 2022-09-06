@@ -1,0 +1,17 @@
+name: inputter
+description: Desktop automation
+version: 1.0.0
+homepage: https://www.inputter.dev
+
+environment:
+  sdk: '>=2.18.0-271.7.beta <3.0.0'
+
+dependencies:
+  image: ^3.2.0
+  win32: ^2.7.0
+
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
