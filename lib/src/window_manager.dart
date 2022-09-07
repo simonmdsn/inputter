@@ -1,8 +1,9 @@
 import 'dart:ffi';
+import 'dart:math';
 
 import 'package:ffi/ffi.dart';
+import 'package:inputter/src/string_util.dart';
 import 'package:win32/win32.dart' as win32;
-
 
 class Rectangle {
   final Point topLeft, bottomRight;
@@ -99,6 +100,13 @@ class WindowManager implements IWindowManager {
     enumerateWindows();
     return _windows.firstWhere(
         (element) => element.title.toLowerCase().contains(title.toLowerCase()));
+  }
+
+  Window? getWindowByBestTitleMatch(String title) {
+    enumerateWindows();
+    var map = {for (var e in _windows) e.title.fuzzyScore(title): e};
+    var highestScore = map.keys.reduce(max);
+    return map.containsKey(highestScore) ? map[highestScore] : null;
   }
 
   void putWindowToFront(WindowsWindow window) {
