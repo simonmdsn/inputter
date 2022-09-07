@@ -1,6 +1,6 @@
 name: inputter
 description: Desktop automation
-version: 1.0.0
+version: 1.0.1
 homepage: https://www.inputter.dev
 
 platforms:
@@ -9,11 +9,12 @@ platforms:
 repository: https://github.com/simonmdsn/inputter
 
 environment:
-  sdk: '>=2.18.0-271.7.beta <3.0.0'
+  sdk: '>=2.17.0 <3.0.0'
 
 dependencies:
   image: ^3.2.0
   win32: ^2.7.0
+  ffi: '>=1.1.2 <3.0.0'
 
 #   path: ^1.8.0
 

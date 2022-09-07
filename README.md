@@ -4,7 +4,7 @@ Desktop automation tool including window, keyboard, mouse manipulation.
 
 ## Getting started
 
-As of now the library works for Window desktops.
+As of now the library works for Windows desktops.
 
 ## Usage
 
