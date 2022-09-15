@@ -1,6 +1,6 @@
 name: inputter
-description: Desktop automation
-version: 1.0.1
+description: Desktop automation package for Windows desktops. Includes window manipulation, input hooks, key remapping, and more.
+version: 1.0.2
 homepage: https://www.inputter.dev
 
 platforms:

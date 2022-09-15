@@ -4,7 +4,7 @@ Desktop automation tool including window, keyboard, mouse manipulation.
 
 ## Getting started
 
-As of now the library works for Windows desktops.
+As of now the library only works for Windows OS.
 
 ## Usage
 
@@ -23,4 +23,4 @@ https://user-images.githubusercontent.com/43004140/188739660-9978ec34-a2f0-431a-
 
 Currently building a website at [inputter.dev](https://inputter.dev) and a [scripting language](lib/src/dsl/Compiler.dart) to wrap the automation library.
 
-This library is basically a convenience abstraction around Tim Sneath's [win32](https://github.com/timsneath/win32) wrapper. So big thanks to him and all other contributors to the library!
+This library is basically a convenient abstraction around Tim Sneath's [win32](https://github.com/timsneath/win32) wrapper for automation purposes. So big thanks to him and all other contributors to the library!
